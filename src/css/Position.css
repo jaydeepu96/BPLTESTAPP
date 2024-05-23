@@ -1,0 +1,82 @@
+
+.tabs {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.tab {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background: #f1f1f1;
+  margin-right: 0.25rem;
+}
+
+.tab.active {
+  background: white;
+  border-bottom: 1px solid white;
+}
+
+.tab-content {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
+.position_form_container {
+  padding: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+label {
+  width: 25%;
+}
+
+input[type="text"],
+textarea,
+select {
+  padding: 0.5rem;
+  width: 75%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.position-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.role_container {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+.role_text {
+  padding: 8px 0px;
+  border-bottom: 3px solid #cc0fcc;
+}
+.role_btn {
+  border: 2px solid #cc0fcc;
+  padding: 5px;
+  border-radius: 5px;
+  color: #cc0fcc;
+}

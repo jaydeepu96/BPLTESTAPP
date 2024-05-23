@@ -1,0 +1,37 @@
+.search_main_container {
+  width: 20%;
+  max-width: 230px;
+  padding: 10px;
+  height: 100vh;
+}
+.search_card {
+  padding: 10px;
+  margin: 5px 0px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.search_card > p {
+  line-height: 1rem;
+}
+.search_card.search_card_border {
+  border-left: 4px solid #ffff006e;
+}
+
+.active_search_card {
+  background-color: #ff00ff2a;
+  border: 1px solid purple;
+}
+.search_id {
+  color: lightgray;
+}
+.serch_box {
+  margin-bottom: 20px;
+}
+
+.serch_box input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
